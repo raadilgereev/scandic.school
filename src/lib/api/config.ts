@@ -1,8 +1,8 @@
 // API Configuration
 export const API_CONFIG = {
   // Base URLs
-  CLIENT_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000',
-  SERVER_BASE_URL: process.env.API_BASE_URL || process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000',
+  CLIENT_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL || 'https://admin.scandicschools.com', //'http://localhost:8000',
+  SERVER_BASE_URL: process.env.API_BASE_URL || process.env.NEXT_PUBLIC_API_BASE_URL || 'https://admin.scandicschools.com', //'http://localhost:8000',
   
   // Timeouts
   DEFAULT_TIMEOUT: 10000,
